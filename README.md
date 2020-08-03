@@ -1,3 +1,5 @@
+[https://linuxconfig.org/bash-scripting-tutorial](https://linuxconfig.org/bash-scripting-tutorial)
+
 #### Bash
 - Bash is a command language interpreter. 
 - It is widely used as a default command interpreter on most GNU/Linux systems
