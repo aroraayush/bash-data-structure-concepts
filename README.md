@@ -38,3 +38,10 @@ echo $VAR   # "global variable"
     ```
     echo $#
     ```
+
+#### Executing shell commands
+```
+#!/bin/bash
+# Shell runs before String prints
+echo "python --version" `python --version`
+```
