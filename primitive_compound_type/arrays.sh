@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Declare array with 4 elements
-ARRAY=('Debian Linux' 'Redhat Linux' 'Ubuntu Linux')
+# Declare array with spaces between elements
+ARRAY=('Debian' 'Redhat' 'Ubuntu ')
 
 # get number of elements in the array
 length=${#ARRAY[@]}
@@ -13,5 +13,5 @@ echo
 # echo each element in array 
 # for loop
 for (( i = 0 ; i < $length ; i++ )); do
-    echo "Element at index $i => $ARRAY[${i}]"
+    echo "Element at index ${i} => ${ARRAY[${i}]}"
 done 
